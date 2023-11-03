@@ -1,0 +1,15 @@
+.headLine{
+    color: #000;
+    font-size: 108px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 102px; /* 94.444% */
+}
+
+.tagLine{
+    color: #5A5959;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

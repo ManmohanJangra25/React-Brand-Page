@@ -1,0 +1,18 @@
+.navbar ul li{
+    display: inline;
+    margin: 0 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.navbar ul{
+    padding: 0;
+}
+
+.navbar ul li a{
+    color: #2E2E2E;
+}
+
+.navbar ul li a:hover{
+    color: #D01C28;
+}
