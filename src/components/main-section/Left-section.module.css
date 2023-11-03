@@ -1,3 +1,8 @@
+.leftSection{
+    width: 40%;
+    margin-left: 50px;
+}
+
 .headLine{
     color: #000;
     font-size: 108px;
@@ -12,4 +17,20 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+.leftSecBtn{
+    display: flex;
+    gap: 40px;
+}
+
+.leftSecAvail p{
+    color: #5A5959;
+    font-size: 16px;
+    line-height: normal;
+}
+
+.leftSecAvail div{
+    display: flex;
+    gap: 15px;
 }

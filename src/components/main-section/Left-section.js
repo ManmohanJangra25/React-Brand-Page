@@ -13,11 +13,14 @@ const LeftSection = () => {
             </div>
             <div className={styles.leftSecBtn}>
                 <Button buttonURL="#" buttonClassName="red_btn" buttonName="Shop Now"/>
-                <Button buttonURL="#" buttonClassName="white_btn" buttonName="Category"/>
+                <Button buttonURL="#" buttonClassName="white_btn_with_border" buttonName="Category"/>
             </div>
             <div className={styles.leftSecAvail}>
-                <Image imgSource={flipkartLogo} imgAlt="flipkart"/>
-                <Image imgSource={AmazonLogo} imgAlt="Amazon"/>
+                <p>Also Available On</p>
+                <div>
+                    <Image imgSource={flipkartLogo} imgAlt="flipkart"/>
+                    <Image imgSource={AmazonLogo} imgAlt="Amazon"/>
+                </div>
             </div>
         </div>
     )
